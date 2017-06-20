@@ -1,0 +1,11 @@
+--- virt/kvm/kvm_main.c
++++ virt/kvm/kvm_main.c
+@@ -1817,7 +1817,7 @@ void kvm_vcpu_on_spin(struct kvm_vcpu *me)
+ 				continue;
+ 			if (vcpu == me)
+ 				continue;
+-			if (waitqueue_active(&vcpu->wq))
++			if (swaitqueue_active(&vcpu->wq))
+ 				continue;
+ 			if (!kvm_vcpu_eligible_for_directed_yield(vcpu))
+ 				continue;

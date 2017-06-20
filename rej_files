@@ -1,0 +1,10 @@
+# 2 out of 2 hunks FAILED -- saving rejects to file arch/arm/kvm/psci.c.rej
+# 1 out of 3 hunks FAILED -- saving rejects to file arch/arm/mm/fault.c.rej
+# 1 out of 1 hunk FAILED -- saving rejects to file arch/um/include/asm/Kbuild.rej
+# 1 out of 1 hunk FAILED -- saving rejects to file drivers/misc/Makefile.rej
+# 1 out of 9 hunks FAILED -- saving rejects to file kernel/fork.c.rej
+# 1 out of 31 hunks FAILED -- saving rejects to file kernel/hrtimer.c.rej
+# 2 out of 51 hunks FAILED -- saving rejects to file kernel/sched/core.c.rej
+# 1 out of 3 hunks FAILED -- saving rejects to file kernel/watchdog.c.rej
+# 1 out of 21 hunks FAILED -- saving rejects to file mm/page_alloc.c.rej
+# 1 out of 5 hunks FAILED -- saving rejects to file virt/kvm/kvm_main.c.rej
